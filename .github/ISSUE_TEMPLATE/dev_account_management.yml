@@ -3,8 +3,6 @@ description: 運用保守アカウント管理
 title: "📝運用保守アカウント: "
 labels: 📝運用保守アカウント
 projects: ["yomon8/1"]
-assignees:
-  - yomon8
 body:
   - type: markdown
     attributes:
