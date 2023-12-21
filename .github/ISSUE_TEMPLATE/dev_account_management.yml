@@ -1,0 +1,48 @@
+name: 📝運用保守アカウント
+description: 運用保守アカウント管理
+title: "📝運用保守アカウント: "
+labels: 📝運用保守アカウント
+projects: ["beex-inc/5"]
+assignees:
+  - yomon8
+body:
+  - type: markdown
+    attributes:
+      value: |
+        運用保守アカウント変更依頼です。
+  - type: dropdown
+    id: role
+    attributes:
+      label: 役割
+      description: 役割を指定してください
+      options:
+        - 保守者
+        - 運用者
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 詳細
+      description: |
+        アカウントの詳細を記載してください。
+
+        example: 
+
+        |組織名|名前|対応|
+        |:--|:--|:--|
+        |BeeX|大友佑介|新規|
+
+      value: |
+        |組織名|名前|対応|
+        |:--|:--|:--|
+        |xxx|xxx|xxx|
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: 備考
+    validations:
+      required: true
